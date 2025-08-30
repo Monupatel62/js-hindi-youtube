@@ -1,1 +1,17 @@
-console.log('This is a test file for basics module.');
+const accountId = 12345
+let accountEmail = "monuvlogs54@gmail.com"
+var accountPassword = "12345"
+accountCity = "Sitamarhi"
+let accountState;
+//account = 2 // not allowed
+
+accountEmail = "monu@gmail.com"
+accountPassword = 1234
+accountCity = "dumara"
+console.log(accountId);
+
+/*
+prefer not to use var
+because of issue in block scope and functional scope
+*/
+console.table([accountId, accountEmail, accountPassword, accountCity]);
